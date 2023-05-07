@@ -1,0 +1,25 @@
+{
+  "name": "learndockerproject",
+  "version": "1.0.0",
+  "description": "https://www.youtube.com/watch?v=9zUHg7xjIqQ&t=311s",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon -L index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-redis": "5.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-session": "1.17.1",
+    "mongoose": "^7.1.0",
+    "redis": "3.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
