@@ -5,6 +5,7 @@ services:
       - 80:80
 
   node_app:
+    image: alex1473/node_app
     build:
       context: .
       args:
